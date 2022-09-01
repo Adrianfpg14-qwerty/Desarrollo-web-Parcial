@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <div class="back">
+            <a href="/index.html">Volver</a>
+        </div>
+        <form action="#">
+            <fieldset>
+                <legend>Datos</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Digite su nombre" required>
+                
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Digite su apellido" required>
+                
+                <div>Género:</div>
+                <div>
+                    <input type="radio" id="masculino" value="masculino" name="gender"checked>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="femenino" value="femenino" name="gender">
+                    <label for="femenino">Femenino</label>
+                </div>
+                
+                <label for="mail">Correo:</label>
+                <input type="text" id="mail" name="mail" placeholder="Digite su correo" required>
+
+                <label for="mail">Programa:</label>
+                <select name="programa" id="programa" required>
+                    <option value="Biología">Biología</option>
+                    <option value="Administración de Empresas">Administración de Empresas</option>
+                    <option value="Administración Marítima y Portuaria">Administración Marítima y Portuaria</option>
+                    <option value="Administración Pública por Ciclos Propedéuticos">Administración Pública por Ciclos Propedéuticos</option>
+                    <option value="Administración Turística y Hotelera">Administración Turística y Hotelera</option>
+                    <option value="Contaduría Pública">Contaduría Pública</option>
+                    <option value="Economía">Economía</option>
+                    <option value="Negocios Internacionales">Negocios Internacionales</option>
+                    <option value="Derecho">Derecho</option>
+                    <option value="Psicología">Psicología</option>
+                    <option value="Trabajo Social">Trabajo Social</option>
+                    <option value="Licenciatura en Educación Física, Recreación y Deportes">Licenciatura en Educación Física, Recreación y Deportes</option>
+                    <option value="Licenciatura en Etnoeducación e Interculturalidad">Licenciatura en Etnoeducación e Interculturalidad</option>
+                    <option value="Licenciatura en Educación Infantil">Licenciatura en Educación Infantil</option>
+                    <option value="Licenciatura en Música">Licenciatura en Música</option>
+                    <option value="Ingeniería Ambiental">Ingeniería Ambiental</option>
+                    <option value="Ingeniería Civil">Ingeniería Civil</option>
+                    <option value="Ingeniería Industrial">Ingeniería Industrial</option>
+                    <option value="Ingeniería Mecánica">Ingeniería Mecánica</option>
+                    <option value="Ingeniería de Sistemas" selected>Ingeniería de Sistemas</option>
+                </select>
+
+                <button>Enviar</button>
+
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

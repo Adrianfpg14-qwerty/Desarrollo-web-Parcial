@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.02em;
+}
+body{
+    background-color: blanchedalmond;
+}
+main{
+    height: 100vh;
+}
+
+table {
+    width: 680px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+a{
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: black;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 1.3em;
+}
+
+a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+.back{
+    padding: 20px;
+}
+
+.tabla{
+    display: grid;
+    justify-content: center;
+}

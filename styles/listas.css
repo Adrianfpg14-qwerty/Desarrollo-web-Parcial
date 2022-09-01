@@ -1,0 +1,32 @@
+body{
+    background-color: blanchedalmond;
+}
+main{
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: black;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 1.3em;
+}
+
+a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+
+.back{
+    padding: 20px;
+}
+
+.listas{
+    background-color: rgb(250, 190, 169);
+    width: fit-content;
+}
